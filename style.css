@@ -1,0 +1,209 @@
+/* шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+
+/* бокс модель */
+.main-container {
+    max-width: 1440px;
+    margin: auto;
+    background-color:black;
+    
+}
+
+
+
+
+/* шапка */
+.head {
+    height: 516px;
+    width: auto;
+    background: url(img/fon222.jpg) 0px 0px no-repeat;
+    background-size: 100% 516px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* блок с названием */
+.name{
+    width: 100%;
+    height: 50%;
+
+}
+
+
+/* Стиль для текста названия клуба */
+.main-name{
+    font-size: 64px;
+    font-family: 'Junge', serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* блок навигации  */
+.main-nav{
+    width: 100%;
+    height: 50%;
+}
+
+
+.nav-list{
+    list-style: none;
+    font-size: 32px;
+
+    text-align: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Jura', sans-serif;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+/* центр */
+.galery{
+    margin-bottom: 20px;
+    height: 700px;
+    width:auto;
+    display:flex;
+    text-align: center;
+    justify-content:space-between;
+    background-color: black;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+
+.video1 {
+    
+    width: 450px;
+    height: 700px;
+}
+
+.video2 {
+    
+    width: 450px;
+    height: 700px;
+}
+
+.info{
+    font-family: 'Jura', sans-serif;
+    font-size: 25px;
+    width: 450px;
+    height: 700px;
+    align-items: center;
+    display: flex;
+}
+
+
+/* фотолента */
+
+.fotolenta{
+    width: 1440px;
+    height: 360px;
+    background-color:black;
+    display: flex;   
+}
+
+.lenta1{
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+    background:url(img/2530.jpg);
+    background-size: cover;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.lenta2{
+    width: 30%;
+    height: 100%;
+    background-color:blue; 
+    
+    background:url(img/2534.jpg);
+    background-size: cover;
+    margin-right: 0px;
+}
+
+.lenta4{
+    width: 30%;
+    height: 100%;
+    background-color:burlywood;
+    background:url(img/2531.jpg);
+    background-size: cover;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+
+/* мат часть */
+.text{
+    background-color:black;
+    width: 1440px;
+    height: 500px;
+    font-size: 24px;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    padding: 30px;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* подвал */
+.adres{
+    background-color: blueviolet;
+    padding: 15px;
+    margin-bottom: 20px;
+    height: 450px;
+    text-align: center;
+}
+
+
+/* тело */
+body{
+    background-color:black;
+    background-image: url(img/5050.jpg);
+    background-size:600px;
+    background-attachment:fixed;
+}
+
+
+/* ссылки футера*/
+.adres{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.adres-link{
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+.adres-link:hover{
+    text-decoration: underline;
+}
+.adres-item {
+    list-style: none;
+}
+
+
+/* фото футера */
+.foot-foto {
+   background-color:black;
+   width: 1440px;
+   height: 260px;
+   display: flex;
+   justify-content: center;
+}
+
